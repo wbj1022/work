@@ -1,0 +1,221 @@
+﻿江苏省南京市建邺区奥体大街69号新城科技园04栋5楼南京步步高通信科技有限公司 
+邵文亮（收）  电话：13925759268  办公室电话:02586388258 
+挂载密码:069d4d86
+
+wubinjie= 吴斌杰:wubinjie:cadd38f9 (500G服务器) addr:172.20.200.22
+
+
+默认白名单 data/bbkcore/whiteList.txt   data/bbkcore/defaultWhiteList.txt
+内存信息 /proc/meminfo
+
+adb shell am startservice -a "com.android.KILL_BG_APPS_SERVICE" && adb shell dumpsys activity services|grep -5 'KILL_BG_APPS_SERVICE'查询广播启动的服务，
+========================================================================================================================================================
+adb shell am start -a "android.settings.SETTINGS" && adb shell dumpsys activity activities|grep -5 'android.settings.SETTINGS'查询广播启动的activity
+=============================================================================
+http://192.168.2.27/mediawikis/index.php/Git%26repo%26gerrit
+===================================================================
+======================================
+svn revert --recursive example_folder    撤销 add  rm
+-------------------------------------------------------------------------------------
+吴南迪(吴南迪) 01-09 11:10:56
+MTK下载的PDF文档密码是多少啊
+伍舜研(伍舜研 分机6035 深圳六楼) 01-09 11:11:28
+8556145372
+===========================================================================
+填满data分区的命令： adb shell dd if=/dev/zero of=/data/bigfile  必须要有root权限
+删除的命令：adb shell rm /data/bigfile 第2个命令不行的话可以先输入adb shell 再输入cd /data再输入 ls
+如果找到了bigfile 再输入rm bigfile 就可以啦
+
+adb shell rm /data/512b
+/data/1k
+/data/1M
+
+如需联系可用如下方法：深圳联系东莞拨9+076985540688转分机，东莞联系深圳拨9+075536991888转分机。
+
+==========================================================================
+不用写代码。直接在cmd窗口上输入 adb shell后，再输入dumpsys activity activities,可以看到所有的activity以及相关栈状态
+=================================================================================
+即日起 手机投诉单中，售后提供的LOG，解压密码均为：85540688，请知悉并记录
+=============================================================================================================
+通用命令
+
+1、adb shell dumpsys meminfo
+
+2、adb shell dumpsys meminfo PID
+
+3、/proc/PID/smaps && /proc/PID/map
+进阶命令
+
+1、adb shell procrank
+
+2、adb shell librank
+
+3、adb shell procmem PID
+==============================================================================================================
+adb shell am force-stop com.android.bbkmusic
+=============================================
+adb shell setprop debug.pms.enablelog true
+
+==========================================
+崔小帆(崔小帆8151) 10-20 11:46:41
+直观上看是句柄泄漏，一般是模块打开了cursor没关闭，要你自己查哪泄漏了
+
+adb shell lsof |grep pid
+pid是进程PID,看下有多少个 /dev/ashmem
+
+崔小帆(崔小帆8151) 10-20 12:05:53
+每个cursor的打开会对应一个打开的/dev/ashmem文件，可以重复某个操作，监控打开的/dev/ashmem文件数量发现cursor泄漏步骤
+
+==========================================
+adb logcat |grep appName=com.iqoo.secure
+==============================
+adb shell dumpsys meminfo $包名 或者 $进程号
+=========================================
+adb shell am start -W -n com.iqoo.secure/com.iqoo.secure.MainActivity
+WaitTime 就是总的耗时，包括前一个应用 Activity pause 的时间和新应用启动的时间；
+ThisTime 表示一连串启动 Activity 的最后一个 Activity 的启动耗时；
+TotalTime 表示新应用启动的耗时，包括新进程的启动和 Activity 的启动，但不包括前一个应用 Activity pause 的耗时。
+也就是说，开发者一般只要关心 TotalTime 即可，这个时间才是自己应用真正启动的耗时。
+============================================
+adb shell lsof | grep pid
+adb shell cat /proc/pid/maps
+
+=======================
+C:\ProgramData\Oracle\Java\javapath;%ANDROID_HOME%\tools;%JAVA_HOME\%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\
+
+================================================
+grep -Pnr "b\(.*\)\.a\(.*\)" ./
+=======================================
+彭中(彭中-电话1709 250 4748-南京) 2016-02-20 15:52:24
+203 | iManager    | vivoWBJ_NJ2015 | 35,17         | wubinjie               | NULL        | 外销软件开发部
+
+===============================
+adb pull /data/data/com.android.providers.media/databases
+=======================================================
+adb logcat -v time -s qdutils
+=======================================================
+a296b60 - (HEAD, CC_vivo_v3.0_EX) 增加LeakCanary相关代码  (4 seconds ago) <wubinjie>
+=======================================================
+adb  shell  setprop  vivo.leakcanary.test  yes
+====================================
+adb logcat -v process | grep com.iqoo.secure
+=================================
+打包jar  jar cvf secureplus.jar com/vivo/secureplus
+=========================================
+查看当前activity
+linux:
+adb shell dumpsys activity | grep mFocusedActivity
+
+windows:
+adb shell dumpsys activity | findstr mFocusedActivity
+==========================================
+./createDb.sh --input-xls 数据库_V4_ex.xls --db-version 4
+===============================================
+* e8e7d99 - (HEAD, CC_vivo_v3.0_EX_dev) 屏蔽数据库升级  (11 days ago) <wubinjie>
+=================================================
+java -Xmx512m -jar baksmali.jar -x blah.odex
+================================================
+jarsigner -verbose -keystore android.keystore -signedjar new.apk old.apk  androidauto.keystore
+=============================================
+iManager vivoWBJ_NJ2015
+============================================
+五、测试：手机需要烧写以下之一进行测试：
+imeis.add("353202049379758");
+imeis.add("867320000022271");
+imeis.add("867320000022289");
+imeis.add("867320000022297");
+==============================================
+adb shell touch data/bbkcore/disableautoclean
+
+==============================================
+V/franco  (12242): flag = 4096            all
+V/franco  (12242): flag = 1048598         android
+V/franco  (12242): flag = 1049154         rom
+V/franco  (12242): flag = 1071682         android + rom
+V/franco  (12242): flag = 1233427         android + rom + platform
+
+
+06-04 15:00:44.825 14285 14330 V franco  : flag = 4096
+06-04 15:00:44.825 14285 14330 V franco  : flag = 1048599
+06-04 15:00:44.825 14285 14330 V franco  : flag = 1049155
+06-04 15:00:44.825 14285 14330 V franco  : flag = 1072707
+06-04 15:00:44.825 14285 14330 V franco  : flag = 1241627
+
+
+V/franco  (12922): flag = 4096            all
+V/franco  (12922): flag = 1048598         android 5.1
+V/franco  (12922): flag = 1049154         rom 2.5
+V/franco  (12922): flag = 1071682         android 5.1 + rom 2.5 (PD1523F_EX,PD1524F_EX,PD1505F_EX,PD1309F_EX)
+V/franco  (12922): flag = 1233427
+
+=================================================
+repo init -u ssh://wubinjie@smartgit:29418/VivoCode/manifest -m TD1602/DailyTest/TD1602_A_A06.13.04_eng_qcom_LA.UM.5.3-02910-89xx.0_msm8937.xml
+
+=================================================
+下面几点原因
+1：管家的修改及后续改动上传项目  比框架灵活；
+2：管家有现成的机制，是基于activiy 切换逻辑， 和我们的需求匹配
+3：华为也是管家这边做的
+
+如果是框架来改
+1：框架修改需要新建个系统服务来维护 （涉及数据库，之前的管家权限管理是没有监控系统应用的）
+2：launcher这种应用，系统框架弹框会有BUG搞不定 （ 框架是基于activity启动的逻辑 ，管家是基于activity切换逻辑）
+
+=================================================
+* f4b49e3 - (HEAD, CC_vivo_v3.0_EX) PD0000 [B160723-xxx]i管家安装完成前杀一下桌面进程  (31 seconds ago) <wubinjie>
+================================================================================================================
+adb shell am broadcast -n com.bbm/.receiver.NetworkChangeMonitor
+===========================================================
+adb pull data/system/users/0/package-restrictions.xml
+=========================================================
+那么就可以得出结论了，同样优先级的情况下，对于动态广播接收器来说，先注册的会排在前面。
+对于静态广播接收器，注册的时机有两种情况，一种是 PMS 启动时的目录扫描，一种是手机运行中安装新软件。
+====================================================================================================
+步骤1：扫描 /framework 下的包；
+步骤2：扫描 /system/priv-app 下的包；
+步骤3：扫描 /system/app 下的包；
+步骤4：扫描 /vendor/app 下的包；
+步骤5：扫描 /data/app下的包；
+步骤6：扫描 /data/app-private 下的包；
+
+扫描文件时是用的 File.list() 列出所有文件，顺序就是 Linux 上文件在磁盘上的偏移顺序，
+一般来讲就是后创建的在后面，那么对应 Android 上来说就是后安装的在后面。
+===================================================================================================
+那么对于 PMS 刚启动时，也基本可以说是刚开机时，注册的静态广播接收器的顺序就是：
+
+/framework 下的包
+/system/priv-app 下的包
+/system/app 下的包
+/vendor/app 下的包
+/data/app下的包
+/data/app-private 下的包
+同一个目录下先安装的排在前面。运行过程中安装的应用还得排在启动扫描的之后，仍然是先安装的先注册。
+==============================================================================================
+adb shell dumpsys meminfo com.iqoo.secure -d
+==============================================================================================
+后续这个可以查看 ProjectConfig_PD1613F_EXMA.mk 这个里面 BBK_TARGET_PRODUCT = msm8937_32                
+#目标板名称  字段
+===============================================================================================
+adb logcat -v time | grep TAG”
+===============================================================================================
+adb shell getprop ro.product.cpu.abilist32
+adb shell getprop ro.product.cpu.abilist64
+adb shell ps | grep z
+=====================================================
+md5sum com.facebook.katana.apk |cut -d ' ' -f1
+====================================
+aapt dump badging baidutieba.apk | grep abi
+============================
+adb shell getprop | grep abilist
+=============================
+ant vivo-release-map
+===============================
+tar -xzvf
+==============================
+《深入理解 Java 虚拟机：JVM 高级特性与最佳实践》一书中提到的 GC Roots 为：
+       1.虚拟机栈(栈帧中的本地变量表)中引用的对象；
+       2.方法区中的类静态属性引用的对象
+       3.方法区中的常量引用的对象
+       4.原生方法栈（Native Method Stack）中 JNI 中引用的对象。
+=====================================
+http://exappupgrade.test.vivo.xyz/admin/user/index
