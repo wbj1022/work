@@ -1,29 +1,31 @@
-1.ÏÂÔØ×îĞÂ°æbaksmali.jar,smali.jar(https://bitbucket.org/JesusFreke/smali/downloads  Ğè·­Ç½);
+1.ä¸‹è½½æœ€æ–°ç‰ˆbaksmali.jar,smali.jar(https://bitbucket.org/JesusFreke/smali/downloads  éœ€ç¿»å¢™);
 
-2.½âÑ¹apk£¬ÌáÈ¡classes.dexÎÄ¼ş£»
+2.è§£å‹apkï¼Œæå–classes.dexæ–‡ä»¶ï¼›
 
-3.java -jar baksmali-2.1.1.jar classes.dex ½«dex×ª»¯³ÉsmaliÎÄ¼şµ½outÄ¿Â¼£»
+3.java -jar baksmali-2.1.1.jar ï¼ˆdisassembleï¼‰-o out classes.dex å°†dexè½¬åŒ–æˆsmaliæ–‡ä»¶åˆ°outç›®å½•ï¼›
 
-4.ĞŞ¸ÄsmaliÎÄ¼ş£¨²åÈëlog¡¢ĞŞ¸ÄÂß¼­µÈµÈ)£»(ÒÔÁÔ±ªÇåÀí´óÊ¦ÎªÀı£¬½«·´±àÒëºóÉú³ÉµÄlogµÄsmali´úÂëÖ±½Ó²åµ½ºÏÊÊµÄÎ»ÖÃ£¨²å×®£©)
 
-5.java -Xmx512m -jar smali-2.1.1.jar out  ½«outÄ¿Â¼ÖØĞÂ´ò°ü³Édex£»
 
-6.ÓÃ7-zip´ò¿ªapk£¬ÓÃĞŞ¸ÄºóµÄdexÌæ»»apkÔ­ÓĞµÄdex£»
+4.ä¿®æ”¹smaliæ–‡ä»¶ï¼ˆæ’å…¥logã€ä¿®æ”¹é€»è¾‘ç­‰ç­‰)ï¼›(ä»¥çŒè±¹æ¸…ç†å¤§å¸ˆä¸ºä¾‹ï¼Œå°†åç¼–è¯‘åç”Ÿæˆçš„logçš„smaliä»£ç ç›´æ¥æ’åˆ°åˆé€‚çš„ä½ç½®ï¼ˆæ’æ¡©ï¼‰)
 
-7.ÖØĞÂÇ©Ãûapk£¬°²×°¡£
+5.java -Xmx512m -jar smali-2.1.1.jar out  å°†outç›®å½•é‡æ–°æ‰“åŒ…æˆdexï¼›
+
+6.ç”¨7-zipæ‰“å¼€apkï¼Œç”¨ä¿®æ”¹åçš„dexæ›¿æ¢apkåŸæœ‰çš„dexï¼›
+
+7.é‡æ–°ç­¾åapkï¼Œå®‰è£…ã€‚
 
 ======================================================================================================
-Ò»Ğ©¿ÉÄÜÓĞÓÃµÄÍøÕ¾
+ä¸€äº›å¯èƒ½æœ‰ç”¨çš„ç½‘ç«™
 ================================================
-1.smali»ù±¾Óï·¨
+1.smaliåŸºæœ¬è¯­æ³•
 http://www.cnblogs.com/lee0oo0/p/3728271.html
 
-2.Ê¹ÓÃandroid studioµ÷ÊÔsmali´úÂë
+2.ä½¿ç”¨android studioè°ƒè¯•smaliä»£ç 
 http://www.cnblogs.com/gordon0918/p/5570811.html
 
-3.ÉîÈëÀí½âDalvik×Ö½ÚÂëÖ¸Áî¼°SmaliÎÄ¼ş 
+3.æ·±å…¥ç†è§£Dalvikå­—èŠ‚ç æŒ‡ä»¤åŠSmaliæ–‡ä»¶ 
 http://blog.csdn.net/dd864140130/article/details/52076515?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io
 
-4.°²×¿¶¯Ì¬µ÷ÊÔÆßÖÖÎäÆ÷Ö®³¤Éú½£ - Smali Instrumentation
+4.å®‰å“åŠ¨æ€è°ƒè¯•ä¸ƒç§æ­¦å™¨ä¹‹é•¿ç”Ÿå‰‘ - Smali Instrumentation
 https://segmentfault.com/a/1190000005342799
 
